@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041A3E1E2A530A1F00C5D926 /* UIcolor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A3E1D2A530A1F00C5D926 /* UIcolor+.swift */; };
+		041A3E202A530EF100C5D926 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A3E1F2A530EF100C5D926 /* Coordinator.swift */; };
+		041A3E222A53119F00C5D926 /* TelaAzulCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A3E212A53119F00C5D926 /* TelaAzulCoordinator.swift */; };
 		0443B8AF2A52F46E00E30FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443B8AE2A52F46E00E30FC1 /* AppDelegate.swift */; };
 		0443B8B12A52F46E00E30FC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443B8B02A52F46E00E30FC1 /* SceneDelegate.swift */; };
 		0443B8B32A52F46E00E30FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443B8B22A52F46E00E30FC1 /* ViewController.swift */; };
 		0443B8B62A52F46E00E30FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0443B8B42A52F46E00E30FC1 /* Main.storyboard */; };
 		0443B8B82A52F46F00E30FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0443B8B72A52F46F00E30FC1 /* Assets.xcassets */; };
 		0443B8BB2A52F46F00E30FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0443B8B92A52F46F00E30FC1 /* LaunchScreen.storyboard */; };
+		0443B8CF2A52FA2C00E30FC1 /* Telaverde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443B8CE2A52FA2C00E30FC1 /* Telaverde.swift */; };
+		0443B8D12A52FA6400E30FC1 /* TelaVermelha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443B8D02A52FA6400E30FC1 /* TelaVermelha.swift */; };
+		0443B8D32A52FCDE00E30FC1 /* TelaAzul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443B8D22A52FCDE00E30FC1 /* TelaAzul.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041A3E1D2A530A1F00C5D926 /* UIcolor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor+.swift"; sourceTree = "<group>"; };
+		041A3E1F2A530EF100C5D926 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		041A3E212A53119F00C5D926 /* TelaAzulCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAzulCoordinator.swift; sourceTree = "<group>"; };
 		0443B8AB2A52F46E00E30FC1 /* TelasSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelasSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0443B8AE2A52F46E00E30FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0443B8B02A52F46E00E30FC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,9 @@
 		0443B8B72A52F46F00E30FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0443B8BA2A52F46F00E30FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0443B8BC2A52F46F00E30FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0443B8CE2A52FA2C00E30FC1 /* Telaverde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telaverde.swift; sourceTree = "<group>"; };
+		0443B8D02A52FA6400E30FC1 /* TelaVermelha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVermelha.swift; sourceTree = "<group>"; };
+		0443B8D22A52FCDE00E30FC1 /* TelaAzul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAzul.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,69 @@
 		0443B8AD2A52F46E00E30FC1 /* TelasSwift */ = {
 			isa = PBXGroup;
 			children = (
-				0443B8AE2A52F46E00E30FC1 /* AppDelegate.swift */,
-				0443B8B02A52F46E00E30FC1 /* SceneDelegate.swift */,
-				0443B8B22A52F46E00E30FC1 /* ViewController.swift */,
-				0443B8B42A52F46E00E30FC1 /* Main.storyboard */,
-				0443B8B72A52F46F00E30FC1 /* Assets.xcassets */,
-				0443B8B92A52F46F00E30FC1 /* LaunchScreen.storyboard */,
+				0443B8C22A52F48900E30FC1 /* Resource */,
+				0443B8C32A52F4DE00E30FC1 /* Source */,
 				0443B8BC2A52F46F00E30FC1 /* Info.plist */,
 			);
 			path = TelasSwift;
+			sourceTree = "<group>";
+		};
+		0443B8C22A52F48900E30FC1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0443B8AE2A52F46E00E30FC1 /* AppDelegate.swift */,
+				0443B8B02A52F46E00E30FC1 /* SceneDelegate.swift */,
+				0443B8B22A52F46E00E30FC1 /* ViewController.swift */,
+				0443B8B72A52F46F00E30FC1 /* Assets.xcassets */,
+				0443B8B42A52F46E00E30FC1 /* Main.storyboard */,
+				0443B8B92A52F46F00E30FC1 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0443B8C32A52F4DE00E30FC1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0443B8C42A52F4F800E30FC1 /* Controller */,
+				0443B8C52A52F50900E30FC1 /* Coordinator */,
+				0443B8CB2A52F60100E30FC1 /* Infrasctructure */,
+				0443B8C72A52F54800E30FC1 /* Extension */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0443B8C42A52F4F800E30FC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0443B8CE2A52FA2C00E30FC1 /* Telaverde.swift */,
+				0443B8D02A52FA6400E30FC1 /* TelaVermelha.swift */,
+				0443B8D22A52FCDE00E30FC1 /* TelaAzul.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0443B8C52A52F50900E30FC1 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				041A3E1F2A530EF100C5D926 /* Coordinator.swift */,
+				041A3E212A53119F00C5D926 /* TelaAzulCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0443B8C72A52F54800E30FC1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				041A3E1D2A530A1F00C5D926 /* UIcolor+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0443B8CB2A52F60100E30FC1 /* Infrasctructure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Infrasctructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +204,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041A3E202A530EF100C5D926 /* Coordinator.swift in Sources */,
 				0443B8B32A52F46E00E30FC1 /* ViewController.swift in Sources */,
+				0443B8D12A52FA6400E30FC1 /* TelaVermelha.swift in Sources */,
 				0443B8AF2A52F46E00E30FC1 /* AppDelegate.swift in Sources */,
+				0443B8D32A52FCDE00E30FC1 /* TelaAzul.swift in Sources */,
+				041A3E1E2A530A1F00C5D926 /* UIcolor+.swift in Sources */,
+				041A3E222A53119F00C5D926 /* TelaAzulCoordinator.swift in Sources */,
+				0443B8CF2A52FA2C00E30FC1 /* Telaverde.swift in Sources */,
 				0443B8B12A52F46E00E30FC1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
